@@ -4,8 +4,14 @@ Automatically render a mustache or glasses over an image of a face
 ## Examples
 
 ### Mustache
+
+    src/templeton -m img/hillary_clinton.jpg img/mustache.png img/hillary_mustache.png
+
 ![alt tag](https://raw.githubusercontent.com/kallaballa/Templeton/master/img/hillary_mustache.png)
 ### Glasses
+
+    src/templeton -g img/hillary_clinton.jpg img/glasses.png img/hillary_glasses.png
+
 ![alt tag](https://raw.githubusercontent.com/kallaballa/Templeton/master/img/hillary_glasses.png)
 
 ## Build
