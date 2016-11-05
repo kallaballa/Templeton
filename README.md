@@ -13,7 +13,7 @@ Automatically render a mustache or glasses over an image of a face
     sudo python setup.py install
     
 ### build Templeton
-    cd ..
+    cd ../..
     make
     
 
