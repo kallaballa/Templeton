@@ -1,6 +1,13 @@
 # Templeton
 Automatically render a mustache or glasses over an image of a face
 
+## Examples
+
+### Mustache
+![alt tag](https://raw.githubusercontent.com/kallaballa/Templeton/master/img/hillary_mustache.png)
+### Glasses
+![alt tag](https://raw.githubusercontent.com/kallaballa/Templeton/master/img/hillary_glasses.png)
+
 ## Build
 
     # clone repository
@@ -18,3 +25,4 @@ Automatically render a mustache or glasses over an image of a face
     tar -xf shape_predictor_68_face_landmarks.dat.bz2
     make
     
+
