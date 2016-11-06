@@ -276,7 +276,7 @@ void glassesOverlay(string faceFile, string glassesFile, string outputFile) {
 }
 
 void printUsage() {
-  std::cerr << "Usage: breezy [-m][-g] <face image> <overlay image> <output image>" << std::endl;
+  std::cerr << "Usage: templeton [-m][-g] <face image> <overlay image> <output image>" << std::endl;
   std::cerr << "Options:" << std::endl;
   std::cerr << "\t-m\t\trender a mustache on top of the image" << std::endl;
   std::cerr << "\t-g\t\trender glasses on top of the image" << std::endl;
@@ -289,7 +289,7 @@ int main( int argc, char** argv) {
 
   const struct option longopts[] =
   {
-    {"mustache",   no_argument,        0, 'm'},
+    {"mustache",     no_argument,        0, 'm'},
     {"glasses",      no_argument,        0, 'g'},
     {0,0,0,0},
   };
