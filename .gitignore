@@ -1,0 +1,7 @@
+.cproject
+.project
+.settings/
+src/templeton
+src/templeton.dep
+src/templeton.o
+
